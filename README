@@ -1,0 +1,6 @@
+﻿Plague Changes: a bunch of cool switches to flick messing with Plague Inc. Evolved
+
+To build: good luck
+the buildscripts quite heavily depend on my own setup, so be prepared to go hunting for files across your filesystem
+
+To play: download the latest release from the releases tab and stick the zip file into the Unity Mod Manager, or build it yourself (but good luck with building)
