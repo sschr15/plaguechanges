@@ -1,0 +1,7 @@
+﻿.idea/
+.vs/
+*.iml
+*.iws
+bin/
+obj/
+*.DotSettings.user
