@@ -91,9 +91,11 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="Patches\AllowThingsPatch.cs" />
+    <Compile Include="Patches\AnyFpsLimitPatch.cs" />
     <Compile Include="Patches\AutoCopyScenariosPatch.cs" />
     <Compile Include="Patches\AutoPopAllPatch.cs" />
     <Compile Include="Patches\CustomMetadataFromJsonPatch.cs" />
+    <Compile Include="Patches\CustomSubScreenDefaultAssemblyPatch.cs" />
     <Compile Include="Patches\DiseasePatches.cs" />
     <Compile Include="Patches\DisplayDaysSinceInfectionPatch.cs" />
     <Compile Include="Patches\ExportDataDeserializeScenarioPatch.cs" />

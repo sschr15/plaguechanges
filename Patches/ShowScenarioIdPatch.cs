@@ -46,7 +46,7 @@ namespace PlagueChanges.Patches
         [HarmonyPostfix]
         public static void ForMetadata(CustomScenarioMetadata metadata, ref UICustomScenarioTableElement __instance)
         {
-            if (!Main.ACTIVE) return;
+            if (!Main.ACTIVE || metadata.Id == 0) return;
 
             var id = metadata.Id;
             var toAdd = $" ({id})";
@@ -63,7 +63,7 @@ namespace PlagueChanges.Patches
         [HarmonyPostfix]
         public static void ForScenario(ulong publishedFileID, ref UICustomScenarioTableElement __instance)
         {
-            if (!Main.ACTIVE) return;
+            if (!Main.ACTIVE || publishedFileID == 0) return;
 
             var toAdd = $" ({publishedFileID})";
 
